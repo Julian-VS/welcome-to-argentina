@@ -1,0 +1,52 @@
+body { font-family: papyrus; background-color:#1b3a69 ; color: white; font-size: 20px; font-weight: 300; margin:50px}
+.highlight{font-size:1.5em; font-weight: bold}
+
+
+.cartel img{position: fixed; width:300px; bottom:0px; right:100px; z-index: 1;opacity: 0.3;-webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;}
+.cartel a {opacity:0.3; font-family: impact; color: white; text-decoration: none; font-size: 25px; z-index: 1;opacity: 0.3;-webkit-transition: visibility 0s, opacity 0.5s linear;  transition: visibility 0s, opacity 0.5s linear;}
+
+.cartel :hover img, .cartel :hover a {visibility: visible; opacity: 1;}
+
+#pat { position: fixed; bottom: 220px; right: 205px;z-index: 2}
+#cuyo { position: fixed; bottom: 190px; right: 260px;z-index: 2}
+#norte { position: fixed; bottom: 160px; right: 250px;z-index: 2}
+#litoral { position: fixed; bottom: 130px; right: 235px;z-index: 2}
+#bsas { position: fixed; bottom: 65px; right: 175px;z-index: 2}
+
+
+
+h1 {font-family: papyrus; color:white; background-color: #00a7e1; font-size: 100px; text-align:center; font-weight: bold; font-style: italic}
+h2 { margin-left: 100px; font-size:50px;}
+h3 {font-size: 50px; text-align:center; border: solid 5px white;}
+
+.list {margin-left: 250px; font-size: 30px; display: inline-block }
+
+
+img:not(.cartel img) { border-radius: 30px; margin: 10px; border: 5px solid lightblue; padding: 3px;}
+#dif-reg-pic{width:100%}
+
+
+.BSAS {color: black; font-family: Brush Script MT; margin: 50px; padding:25px;  font-size: 35px; font-weight: 90; background-image:url(https://i.ibb.co/nC1QJyk/papel-papiro-marron-53876-14519.jpg)}
+.right {width: 45%; float:right}
+.left{ width: 35%; float:left;}
+.last-two {width: 45%; display: inline-block;}
+
+.PAT {font-family: papyrus; background-color: #004225; padding: 25px; margin: 50px;}
+#Patagonia-landscape { width:100%}
+#HandCave {width:30%; float: left}
+#Alerces {width: 40%; float: right}
+#Moreno { width: 50%; float: center}
+
+.CUYO{font-family: Garamond;background-color: #5e1224; padding: 25px;margin: 50px;}
+#cup {float: left; clear:bottom; width: 35%}
+#aconcagua{width: 30%; float: right}
+
+
+.NOR{font-family:Candara; background-color: #a28e85; padding: 20px; font-weight:bold;margin: 50px;}
+.NOR img {width: 30%; display: inline-block;}
+
+.LIT{font-family: Lucida Handwriting; padding: 20px;background-color: #b8400d; margin: 50px;}
+#LIT-T {background-image: url(http://soundimage.org/wp-content/uploads/2018/04/P1050089_Standard.jpg)}
+.LIT img {width: 30%; display: inline-block;}
+#catarats {width: 100%}
